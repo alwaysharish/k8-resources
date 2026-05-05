@@ -1,0 +1,10 @@
+appVersion: v1
+kind: pod
+metadata:
+  name: nginx
+  lables:
+    pupose: demo
+spec:
+  containers:
+  - name: nginx
+    image: nginx    
