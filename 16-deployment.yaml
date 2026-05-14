@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: nginx:latest # Edaina application new version vaste ikkada update chesi apply cheste chalu
 ---
 apiVersion: v1
 kind: Service
